@@ -4,7 +4,7 @@ function sortear() {
     let ate = parseInt(document.getElementById("ate").value);
 
     if (de > ate || quantidade > (ate - de + 1)){
-        alert("Por favor não coloque um numero minimo menor que o maximo e nao coloque uma quantidade inferior ao intervalo escolhido");
+        alert("Por favor, não insira um número mínimo maior que o máximo e não defina uma quantidade superior ao intervalo disponível");
         reiniciar()
     } else {
         let sorteados = [];
